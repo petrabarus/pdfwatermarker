@@ -10,6 +10,7 @@ class WatermarkerTest
         val pdfFile = File(this.javaClass.getResource("/PDFSample.pdf").file)
         val outputFile = createTempFile("PDFSample-", ".pdf")
         val stampFile = File(this.javaClass.getResource("/shape.png").file)
+        //print("evince " + outputFile)
         val watermarker = Watermarker(
                 pdfFile = pdfFile,
                 stampFile = stampFile,
