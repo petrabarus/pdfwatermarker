@@ -5,7 +5,7 @@
 
     <groupId>net.petrabarus.dev.pdfwatermarker</groupId>
     <artifactId>pdfwatermarker</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
     <name>net.petrabarus.pdfwatermarker pdfwatermarker</name>

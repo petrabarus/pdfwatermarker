@@ -8,6 +8,15 @@ To execute the tool
 java -jar pdfwatermarker.jar [options] <pdf file> <stamp file>
 ```
 
+Example
+
+```text
+java -jar pdfwatermarker.jar \
+    --output test.pdf \
+    src/test/resources/PDFSample.pdf \
+    src/test/resources/shape.png
+```
+
 To see list of available helps
 
 ```text
